@@ -11,4 +11,4 @@ Run `hugo server -D` to view the website locally. Make sure it looks good.
 # Deploy the website
 1. Create an EC2 instance.
 2. Log in into the instance and run the site locally from there.
-4. Go to the website link to check deployment works.
+3. Go to the website link to check deployment works.
