@@ -14,3 +14,7 @@
 - Why can't I see it? Because it's not running on the right port: `[URL]:1313/`
 - Base URL and Bind: `hugo server -D --bind=0.0.0.0 --baseUrl=[URL]`
 - VPC: Setting it up so it's publicly accessible
+
+## Additional Pain Points
+- If your repository is private, you need to set up git credentials on the EC2 instance.
+- If you use AWS Linux, it doesn't come up with many things installed by default. You need to install git, hugo, etc.
