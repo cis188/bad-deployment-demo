@@ -1,0 +1,46 @@
+baseURL = "https://cis1880.org/"
+languageCode = "en-us"
+title = "CIS 1880: DevOps"
+theme = "cactus"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Schedule"
+url = "/lectures/"
+weight = 2
+
+[[menu.main]]
+name = "Syllabus"
+url = "/syllabus/"
+weight = 3
+ 
+[[menu.main]]
+name = "Resources"
+url = "/resources/"
+weight = 3.5
+
+[[menu.main]]
+name = "Staff"
+url = "/staff/"
+weight = 4
+
+[[menu.main]]
+name = "Gradescope"
+url = "https://www.gradescope.com/courses/354160"
+weight = 5
+
+[[menu.main]]
+name = "Ed"
+url = "https://edstem.org/us/courses/35336/discussion/"
+weight = 6
+
+[markup]
+  [markup.highlight]
+    style = "monokailight"
+[params]
+  colortheme = "white"
+  logo = "img/logo.png"
